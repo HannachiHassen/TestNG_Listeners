@@ -1,5 +1,6 @@
 package listeners;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -30,12 +31,13 @@ public final class Runner {
 	
 	@Test
 	public void test1() {
-		System.out.println("test1");
+		System.out.println("test1");		
 	}
 	
 	@Test
 	public void test2() {
 		System.out.println("test2");
+		Assert.assertTrue(false);
 	}
 	
 	@Test
