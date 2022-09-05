@@ -23,7 +23,7 @@ public class AnnotationTransformer implements IAnnotationTransformer{
 		Map<String, Object> test2=new HashMap<>();
 		test2.put("name", "test2");
 		test2.put("count", "2");
-		test1.put("enabled", true);
+		test2.put("enabled", true);
 		
 		List<Map<String, Object>> list=new ArrayList<>();
 		list.add(test1);
